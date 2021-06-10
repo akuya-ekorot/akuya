@@ -32,7 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "inter", serif;
+  font-family: 'Inter', serif;
   height: 100vh;
   min-height: 700px;
   padding: 5% 5% 5% 5%;
@@ -151,7 +151,7 @@ form {
 }
 
 .message {
-  font-family: "inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #343d3a;
   height: 200px;
   padding: 10px 20px;
@@ -163,4 +163,14 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+      url('../fonts/Inter-Regular.woff') format('woff'),
+      url('../fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
