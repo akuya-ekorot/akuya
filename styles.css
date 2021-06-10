@@ -42,6 +42,10 @@ body {
   min-height: 800px;
 }
 
+.section.three {
+  min-height: 1100px;
+}
+
 .circle {
   border-radius: 50%;
 }
