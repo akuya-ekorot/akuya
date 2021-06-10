@@ -56,10 +56,19 @@ body {
   flex-direction: row;
   height: 20vh;
   justify-content: center;
-  /* justify-self: stretch; */
   min-height: 130px;
   overflow: hidden;
   width: 20vh;
+  min-width: 130px;
+  max-width: 300px;
+}
+
+img {
+  height: 20vh;
+  min-height: 130px;
+  max-width: 300px;
+  width: 20vh;
+  min-width: 130px;
   max-width: 300px;
 }
 
