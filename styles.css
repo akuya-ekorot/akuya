@@ -24,91 +24,92 @@
   background-color: #efa93a;
 }
 
-body {
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: "inter", serif;
-  padding: 4% 5% 4% 10%;
+  height: 100vh;
+  padding: 5% 5% 5% 5%;
 }
 
 .circle {
   border-radius: 50%;
 }
 
-.hero-image-height {
-  height: 25vh;
-  /* min-height: 200px; */
-}
-
 .hero-image-section {
+  border-radius: 50%;
   display: flex;
   flex-direction: row;
+  height: 20vh;
   justify-content: center;
-}
-
-.hero-image-width {
-  width: 250px;
-}
-
-.crop {
+  /* justify-self: stretch; */
+  min-height: 130px;
   overflow: hidden;
-}
-
-.center {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.center-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.center-text {
-    text-align: center;
+  width: 20vh;
+  max-width: 300px;
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   font-weight: 800;
-  margin: 54px 0;
+  margin: 30px 0 20px;
+  /* width: 80vw; */
 }
 
-.paragraph-font-1 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding-bottom: 0;
+.paragraph-style-1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 10px;
+  width: 80vw;
 }
 
-li {
-    font-size: 1.1rem;
-    padding-bottom: 18px;
+.list {
+  font-size: 1rem;
+  margin-top: 5px;
+  /* width: 80vw; */
 }
 
-p {
-    margin: 0;
+.list-item {
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+
+.cta {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  width: 80vw;
+}
+
+.cta-text {
+  margin: 12px;
 }
 
 .font-1-5 {
-    font-size: 1.3rem;
-}
-
-.border {
-    border: 3px solid #343d3a;
-    border-radius: 10px;
-}
-
-.black {
-    font-size: 1.2rem;
-    font-weight: 900;
+  font-size: 1.3rem;
 }
 
 .button {
-    margin-bottom: 12px;
-    padding: 10px;
+  border: 3px solid #343d3a;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-bottom: 12px;
+  /* margin-top: 10px; */
 }
 
-.bottom-margin {
-    
-    margin-bottom: 16px;
+.spacing {
+  flex: 1;
+}
+
+.list-section {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
