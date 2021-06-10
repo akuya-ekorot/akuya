@@ -116,8 +116,32 @@ h1, h2 {
   /* margin-top: 10px; */
 }
 
-.spacing {
-  flex: 1;
+.form-container {
+  border: 3px solid #343d3a;
+  border-radius: 10px;
+  padding: 3vw;
+}
+
+form {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  border: 1px solid #343d3a;
+  border-radius: 5px;
+  height: 50px;
+  padding: 0 20px;
+  margin-bottom: 12px;
+}
+
+.message {
+  font-family: "inter", sans-serif;
+  color: #343d3a;
+  height: 200px;
+  padding: 10px 20px;
+  resize: none;
 }
 
 .list-section {
