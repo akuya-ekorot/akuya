@@ -132,9 +132,13 @@ form {
 .form-input {
   border: 1px solid #343d3a;
   border-radius: 5px;
-  height: 50px;
+  height: 40px;
   padding: 0 20px;
   margin-bottom: 12px;
+}
+
+.form-section {
+  min-height: 900px;
 }
 
 .message {
